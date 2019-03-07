@@ -39,7 +39,7 @@ class Generator:
 def main():
 	# Texture size must be power of two
 	# With the default tag image size (10pix), tags will not be clearly rendered due to rescaling and interpolation
-	tag_size = 32
+	tag_size = 1024
 
 	generator = Generator()
 	for i in range(16):

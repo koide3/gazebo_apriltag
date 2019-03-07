@@ -3,13 +3,6 @@
   <model name='Apriltag36_11_00014'>
     <link name='main'>
     <pose frame=''>0 0 0 0 0 0</pose>
-      <collision name='main_Collision'>
-        <geometry>
-          <box>
-            <size>1.0 1.0 0.01 </size>
-          </box>
-        </geometry>
-       </collision>
       <visual name='main_Visual'>
         <geometry>
           <box>
