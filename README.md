@@ -2,10 +2,12 @@
 
 <img src="ss.png" width="712pix" />
 
-Install models:
+Install models by running:
 ```bash
 cp -R gazebo_apriltag/models/* ~/.gazebo/models/
 ```
+
+Or, add the full path to `gazebo_apriltag/models/` to the `GAZEBO_MODEL_PATH` environment variable.
 
 Generate additional tag models:
 ```bash
