@@ -6,15 +6,21 @@
       <visual name='main_Visual'>
         <geometry>
           <box>
-          <size>1.0 1.0 0.01</size>
+            <size>1.0 1.0 0.01</size>
           </box>
         </geometry>
-           <material>
+        <material>
           <script>
-            <uri>model://Apriltag36_11_00009/materials/scripts</uri>
-            <uri>model://Apriltag36_11_00009/materials/textures</uri>
-            <name>Apriltag36_11_00009</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
           </script>
+          <pbr>
+            <metal>
+              <albedo_map>model://Apriltag36_11_00009/materials/textures/tag36_11_00009.png</albedo_map>
+              <metalness>0.0</metalness>
+              <roughness>0.5</roughness>
+            </metal>
+          </pbr>
         </material>
       </visual>
      </link>

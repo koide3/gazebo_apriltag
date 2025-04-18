@@ -1,4 +1,4 @@
-# gazebo_apriltag
+# gazebo_apriltag for gz sim
 
 **For Gazebo harmonic use: https://github.com/rickarmstrong/gazebo_apriltag/tree/harmonic**
 
@@ -8,9 +8,10 @@ Install models by running:
 ```bash
 cp -R gazebo_apriltag/models/* ~/.gazebo/models/
 ```
-
-Or, add the full path to `gazebo_apriltag/models/` to the `GAZEBO_MODEL_PATH` environment variable.
-
+or
+```shell
+export GZ_SIM_RESOURCE_PATH=$GZ_SIM_RESOURCE_PATH:/path/to/models
+```
 Generate additional tag models:
 ```bash
 # Edit the following lines in generate.py to create tag models you want
